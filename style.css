@@ -1,0 +1,218 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400; /*Text regular weight 400 _line11 index.html*/
+    padding-bottom: 5%;
+}
+a {
+    text-decoration: none;
+}
+/*navbar style starts*/
+a.navbar-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#navbar-div{
+    display: none;
+    justify-content: flex-end;
+    column-gap: 20px;
+    padding: 10px 40px;
+    font-weight: 700;   /*Text Bold weight 500 _line11 index.html*/
+}
+/*navbar style ends*/
+
+/*backdrop style starts*/
+#backdrop{
+display: flex;
+flex-direction: column-reverse;
+justify-content: space-around;
+column-gap: 25px;
+padding: 3% 8%;
+margin-top: 4%;
+text-align: center;
+}
+img.dp{
+    width: 200px;
+    
+}
+@media screen and (min-width:500px)  {
+    #backdrop{
+        flex-direction: row;
+        text-align: left;
+    }
+    #backdrop-left-coloumn{
+        width: 50%;
+    
+    }
+     
+    #backdrop-left-coloumn>h1 {
+        font-size: 44px;
+    }
+    #backdrop-right-coloumn{
+        width: 45%;
+    }
+    
+    img.dp{
+        width: 300px;
+    }
+   #navbar-div{
+    display: flex;
+   }
+}
+#backdrop>div{
+    width: 40%;
+   /*border: 1px solid red;*/
+}
+/*backdrop-left-column styles start*/
+#backdrop-left-coloumn{
+width: 100%;
+color: #21243D;
+}
+
+#backdrop-left-coloumn>h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+#backdrop-left-coloumn>p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#backdrop-left-button {
+    background-color: orangered;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 0;
+}
+/*backdrop-left-column styles ends*/
+
+#backdrop-right-coloumn{
+    
+    width: 100%;
+    text-align: center;
+}
+/*backdrop style ends*/
+
+/* recent blogs starts*/
+#recent-blog-posts{
+    background-color: #EDF7FA;
+    padding: 5% 2%;
+}
+#recent-posts-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.my-h4{
+   font-weight: 400;
+   font-size: 22px;
+   color:#21243D ;
+    margin:0;
+}
+#card-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    
+}
+@media screen and (min-width:500px){
+    #recent-blog-posts{
+        
+        padding: 1.5% 8%;
+    }
+    #card-container
+    { 
+        flex-direction: row;
+        column-gap: 1%;
+    }
+}
+div.card{
+    color: #21243D;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 22px;
+}
+h2.my-h2{
+    color: #21243D;
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.card>span{
+    font-size: 18px;
+    padding: 5px 10px;
+
+}
+div.card>p{
+    font-size:16px ;
+}
+
+/* recent blogs ends*/
+
+/*featured works starts*/
+
+section.featured-works{
+    background-color: white;
+    padding: 5% 8%;
+   
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+
+div.horizontal-card{
+    display: flex;
+    flex-direction: column;
+    column-gap: 3%;
+}
+@media screen and (min-width:500px) {
+    div.horizontal-card{
+        row-gap: 20px;
+        flex-direction: row;
+    }  
+    
+}
+span.pill{
+    background-color: #142850;
+    padding: 1.5px 15px;
+    color: white;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 18px;
+}
+span.secondary-text{
+    color: #8695A4;
+    font-size: 20px;
+    margin-left: 16px;
+}
+div.horizontal-card>div>p{
+color: #21243D;
+font-size: 16px;
+}
+div.horizontal-card>img{
+    border-radius: 6px;
+}
+/*featured works ends*/
+
+/* social media links start*/
+#social-media-links-section{
+    text-align: center;
+    font-size: 30px;
+    color: darkblue;
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+#social-media-links-section>a{
+    color: darkblue;
+}
+
+/* social media links ends*/
