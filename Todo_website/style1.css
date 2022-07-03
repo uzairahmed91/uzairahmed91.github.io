@@ -1,0 +1,99 @@
+:root {
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    margin: 0;
+}
+#backcover{
+    width: 100%;
+}
+#backcover img{
+    width: 100%;
+    height: auto;
+}
+#form1{
+    display: flex;
+}
+.header {
+    position: absolute;
+    z-index: 1; 
+    
+}
+#backcover p{
+    
+    font-size: 3rem;
+    color: white;
+    left:30%
+}
+
+#backcover input {
+    left: 30%;
+    top: 15%;
+    width: 35rem;
+    height: 2.5rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    border: solid;
+    
+} 
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    #backcover input{
+        border: solid;
+        left: 30%;
+        top: 8%;
+        width: 35rem;
+        height: 3.5rem;
+        padding: 1rem;
+        border-radius: 0.3rem;
+        font-size: 3.2rem;
+    }
+    
+}
+#backcover button{
+    width: 3.3rem;
+    height: 4.5rem;
+    z-index: 2;
+    top: 15%;
+    left: 65.1%;
+    background-color: #8f55e3b3;
+    border: none;
+    border-radius: 0 0.3rem 0 0.3rem;
+    color: white;
+    cursor: pointer;
+}
+#tasks {
+    position: absolute;
+    z-index: 1;
+    width: 39%;
+    min-height:50vh;
+    top: 28%;
+    left: 30%;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px gray;
+    border-radius: 0.5rem;
+    padding: 0;
+    
+}
+#tasks ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    border-radius: inherit;
+}
+#tasks ul li{
+    
+    cursor: pointer;
+   padding: 0.8rem 1rem 0.8rem 1rem;
+}
+
+#tasks ul li:hover{
+    background-color: rgb(194, 191, 191) ;
+    border-radius: inherit;
+}
+#tasks i{
+    color: gray;
+     
+}
